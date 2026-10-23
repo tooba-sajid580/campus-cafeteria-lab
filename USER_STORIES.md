@@ -116,6 +116,7 @@ As a student, I want to review my cart and confirm payment/order placement so th
 - [ ] The checkout page lists all cart items, individual prices, total price, and order summary.
 - [ ] The student can select a payment method and click "Confirm Order".
 - [ ] Upon successful placement, the system displays an order confirmation with a unique Order ID.
+- [ ] The system displays an out-of-stock warning and prevents checkout if an item in the cart becomes unavailable.
 
 ### Technical Tasks
 - [ ] Design order checkout and summary screen.
@@ -123,6 +124,7 @@ As a student, I want to review my cart and confirm payment/order placement so th
 - [ ] Integrate payment gateway mock/logic.
 - [ ] Clear cart state upon successful order placement.
 - [ ] Test placing orders with valid payment, failed payment, and network drop scenarios.
+- [ ] Implement real-time stock verification when proceeding to cart checkout
 
 ### Story Information
 - **Priority:** High
